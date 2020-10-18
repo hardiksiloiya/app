@@ -1,0 +1,48 @@
+$var: black;
+$var2:red;
+label {
+    
+    color: whitesmoke;
+   
+    position: relative;
+
+}
+.name,.email,.feedback,.comment {
+    
+    text-align: start;
+    color: white;
+}
+.heading {
+    background-color: $var;
+    height: 10px;
+    color:white;
+    font-size: large;
+}
+.inputbox {
+    width: 250px;
+}
+div{
+    padding-top: 3%; padding-bottom: 3%;
+    text-align: center;
+    h1{
+        background: black;
+    }
+}
+
+.form {
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 3px solid  ;
+    padding: 5% 1% 1% 5%;
+    border-radius: 2%;
+    height: 500px;
+    width: 500px;
+    background-color:$var;
+    border: 5px solid $var2;
+}
+textarea{
+    background-color: var;
+    height: 100px;
+    width: 200px;
+    color: black;
+}

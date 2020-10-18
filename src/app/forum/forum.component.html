@@ -1,0 +1,41 @@
+<form [formGroup]="data" (ngSubmit)="submit()" >
+    <br> <br>
+    <div class="heading"><h1 text-align="center">Please give details:</h1></div> <br> <br>
+    <div class="form">
+        <div class="name">
+            <label>
+                Name:
+                <input class ="inputbox" type="text" formControlName="name"> 
+            </label>
+        </div>
+        <br>
+        <div class="email">
+            <label>
+                Email:
+                <input class = "inputbox" type="text" formControlName = "email">
+            </label>
+        </div>
+        <br>
+        <div class="feedback">
+            <label>
+                Please give your Feedback: <br>
+                <label><input type="radio" value = "Great" formControlName= "feedback" > Great</label><br>
+                <label><input type="radio" value = "Okay" formControlName = "feedback" > Okay</label><br>
+                <label><input type="radio" value = "Not Good" formControlName = "feedback" > Not Good</label><br>
+            </label>
+        </div>
+        <br>
+        <div class="comment">
+            <label>
+                Comments:
+                <textarea formControlName="comment"></textarea>
+            </label>
+        </div>
+        <br><br>
+    
+    </div>
+    <div><button type="submit">Submit</button></div>
+</form>
+
+
+
